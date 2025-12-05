@@ -1,14 +1,9 @@
-import { type SharedData } from '@/types';
-import { Head, usePage } from '@inertiajs/react';
+import { Head } from '@inertiajs/react';
 import HeroSection from '@/components/hero-section';
+import FooterSection from '@/components/footer';
+import StatsSection from '@/components/stats-one';
 
-export default function Welcome({
-    canRegister = true,
-}: {
-    canRegister?: boolean;
-}) {
-    const { auth } = usePage<SharedData>().props;
-
+export default function Welcome() {
     return (
         <>
             <Head title="Welcome">
@@ -20,6 +15,10 @@ export default function Welcome({
             </Head>
 
             <HeroSection />
+
+            <StatsSection />
+
+            <FooterSection />
         </>
     );
 }
