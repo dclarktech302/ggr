@@ -1,9 +1,10 @@
-import Link from 'next/link'
+import { Link } from '@inertiajs/react';
 import { Logo } from '@/components/logo'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { cn } from '@/lib/utils'
+import { ModeToggle } from './mode-toggle';
 
 const menuItems = [
     { name: 'Features', href: '#link' },
@@ -76,7 +77,8 @@ export const HeroHeader = () => {
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                                <Button
+                                <ModeToggle />
+                                {/* <Button
                                     asChild
                                     variant="outline"
                                     size="sm"
@@ -100,7 +102,7 @@ export const HeroHeader = () => {
                                     <Link href="#">
                                         <span>Get Started</span>
                                     </Link>
-                                </Button>
+                                </Button> */}
                             </div>
                         </div>
                     </div>

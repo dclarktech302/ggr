@@ -1,8 +1,7 @@
-import React from 'react'
 import { Mail, SendHorizonal } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import { TextEffect } from '@/components/ui/text-effect'
-import { AnimatedGroup } from '@/components/ui/animated-group'
+import { Button } from './ui/button'
+import { TextEffect } from './ui/text-effect'
+import { AnimatedGroup } from './ui/animated-group'
 import { HeroHeader } from './header'
 import { LogoCloud } from './logo-cloud'
 
