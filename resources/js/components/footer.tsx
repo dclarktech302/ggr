@@ -3,27 +3,15 @@ import { Link } from '@inertiajs/react'
 
 const links = [
     {
-        title: 'Features',
-        href: '#',
-    },
-    {
-        title: 'Solution',
-        href: '#',
-    },
-    {
-        title: 'Customers',
-        href: '#',
-    },
-    {
-        title: 'Pricing',
-        href: '#',
-    },
-    {
-        title: 'Help',
+        title: 'Home',
         href: '#',
     },
     {
         title: 'About',
+        href: '#',
+    },
+    {
+        title: 'Shows',
         href: '#',
     },
 ]

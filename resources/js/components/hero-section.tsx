@@ -39,7 +39,7 @@ export default function HeroSection() {
                                 speedSegment={0.3}
                                 as="h1"
                                 className="text-balance text-5xl font-medium md:text-6xl">
-                                Healthier daily routine
+                                Ghost Gang Records
                             </TextEffect>
                             <TextEffect
                                 per="line"
@@ -48,7 +48,7 @@ export default function HeroSection() {
                                 delay={0.5}
                                 as="p"
                                 className="mx-auto mt-6 max-w-2xl text-pretty text-lg">
-                                Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.
+                                Hey, we need words here, idc what they are
                             </TextEffect>
 
                             <AnimatedGroup
