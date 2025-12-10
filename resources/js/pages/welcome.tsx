@@ -3,6 +3,7 @@ import HeroSection from '@/components/hero-section';
 import FooterSection from '@/components/footer';
 import StatsSection from '@/components/stats-one';
 import ContentSection from '@/components/about-section';
+import ShowsSection from '@/components/shows-section';
 
 export default function Welcome() {
     return (
@@ -20,6 +21,8 @@ export default function Welcome() {
             <ContentSection />
 
             <StatsSection />
+
+            <ShowsSection />
 
             <FooterSection />
         </>

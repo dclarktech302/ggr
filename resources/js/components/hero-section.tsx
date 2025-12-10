@@ -48,7 +48,7 @@ export default function HeroSection() {
                                 delay={0.5}
                                 as="p"
                                 className="mx-auto mt-6 max-w-2xl text-pretty text-lg">
-                                Hey, we need words here, idc what they are
+                                Welcome to the next generation of Entertainment on the Eastern Shore
                             </TextEffect>
 
                             <AnimatedGroup

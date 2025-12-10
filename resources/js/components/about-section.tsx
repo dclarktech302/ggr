@@ -3,7 +3,7 @@ import { ChevronRight, Link } from 'lucide-react'
 
 export default function ContentSection() {
     return (
-        <section className="py-16 md:py-32 scroll-mt-24" id="about">
+        <section id="about" className="py-16 md:py-32 scroll-mt-24">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="grid gap-6 md:grid-cols-2 md:gap-12">
                     <h2 className="text-4xl font-medium">About Ghost Gang Records</h2>

@@ -4,15 +4,19 @@ import { Link } from '@inertiajs/react'
 const links = [
     {
         title: 'Home',
-        href: '#',
+        href: '#/',
     },
     {
         title: 'About',
-        href: '#',
+        href: '#about',
+    },
+    {
+        title: 'Stats',
+        href: '#stats',
     },
     {
         title: 'Shows',
-        href: '#',
+        href: '#shows',
     },
 ]
 
