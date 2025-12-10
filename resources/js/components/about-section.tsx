@@ -8,9 +8,9 @@ export default function ContentSection() {
                 <div className="grid gap-6 md:grid-cols-2 md:gap-12">
                     <h2 className="text-4xl font-medium">About Ghost Gang Records</h2>
                     <div className="space-y-6">
-                        <p>Ghost Gang Records is a music production company based in Delaware, USA. We are a team of music producers, DJs, and DJs who are passionate about music and music production.</p>
+                        <p>Ghost Gang Records is a music production company based on the Eastern Shore. We are a team of music producers, DJs, and artists who are passionate about music and community.</p>
                         <p>
-                            GGR. <span className="font-bold">We are a team of music producers, DJs, and DJs who are passionate about music and music production.</span> We are a team of music producers, DJs, and DJs who are passionate about music and music production.
+                            GGR. <span className="font-bold">We are a team of music producers, DJs, and DJs who are passionate about music and music production.</span> We are a team of music producers, DJs, and artists who are passionate about music and community.
                         </p>
                         <Button
                             asChild
