@@ -64,7 +64,7 @@ export default function HeroSection() {
                                     ...transitionVariants,
                                 }}
                                 className="mt-12">
-                                <form
+                                {/* <form
                                     action=""
                                     className="mx-auto max-w-sm">
                                     <div className="bg-background has-[input:focus]:ring-muted relative grid grid-cols-[1fr_auto] items-center rounded-[calc(var(--radius)+0.5rem)] border pr-2 shadow shadow-zinc-950/5 has-[input:focus]:ring-2">
@@ -89,7 +89,7 @@ export default function HeroSection() {
                                             </Button>
                                         </div>
                                     </div>
-                                </form>
+                                </form> */}
 
                                 <div
                                     aria-hidden
@@ -99,7 +99,7 @@ export default function HeroSection() {
                                     </div>
                                     <div className="bg-muted dark:bg-background/50 border-border/50 mx-auto w-80 translate-x-4 rounded-[2rem] border p-2 backdrop-blur-3xl [mask-image:linear-gradient(to_bottom,#000_50%,transparent_90%)] sm:translate-x-8">
                                         <div className="bg-background space-y-2 overflow-hidden rounded-[1.5rem] border p-2 shadow-xl dark:bg-white/5 dark:shadow-black dark:backdrop-blur-3xl">
-                                            <AppComponent />
+                                            {/* <AppComponent /> */}
 
                                             <div className="bg-muted rounded-[1rem] p-4 pb-16 dark:bg-white/5"></div>
                                         </div>

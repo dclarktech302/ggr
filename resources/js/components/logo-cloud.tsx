@@ -9,7 +9,7 @@ export const LogoCloud = () => {
                     <div className="inline md:max-w-44 md:border-r md:pr-6">
                         <p className="text-end text-sm">Thank you to our sponsors</p>
                     </div>
-                    <div className="relative py-6 md:w-[calc(100%-11rem)]">
+                    {/* <div className="relative py-6 md:w-[calc(100%-11rem)]">
                         <InfiniteSlider
                             speedOnHover={20}
                             speed={40}
@@ -37,7 +37,7 @@ export const LogoCloud = () => {
                             direction="right"
                             blurIntensity={1}
                         />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
