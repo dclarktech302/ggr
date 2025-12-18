@@ -37,7 +37,7 @@ export const LogoCloud = () => {
                             direction="right"
                             blurIntensity={1}
                         />
-                    </div> */}
+                    </div> */} 
                 </div>
             </div>
         </section>
